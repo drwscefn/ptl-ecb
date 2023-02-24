@@ -1,0 +1,5 @@
+import html
+import base64
+
+cookie = base64.b64encode(b"\x15\x14M\x12\xa2:\x84l\xa4\xd1\xbe\x11\xa4!\x0e\x982$\x9eV\xef\xf2\xa1N")
+print(cookie)
